@@ -31,7 +31,7 @@ TypeNames:
 	dw Ice
 	dw Dragon
 	dw Dark
-	dw FAIRY
+	dw Fairy
 	assert_table_length TYPES_END
 
 Normal:    db "NORMAL@"
