@@ -2498,11 +2498,11 @@ LedianEvosAttacks:
 	db 15, COMET_PUNCH
 	db 18, LIGHT_SCREEN
 	db 18, REFLECT
+	db 21, MACH_PUNCH
 	db 24, SAFEGUARD
 	db 26, BATON_PASS
 	db 31, AGILITY
 	db 36, GIGA_DRAIN
-	db 42, SWIFT
 	db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
