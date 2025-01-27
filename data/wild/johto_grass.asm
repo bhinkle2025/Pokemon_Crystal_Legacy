@@ -291,7 +291,7 @@ JohtoGrassWildMons:
 	db 14, SLUGMA
 	db 15, SLUGMA
 	db 15, RATICATE
-	db 15, RATICATE
+	db 15, CYNDAQUIL
 	; day
 	db 13, RATTATA
 	db 14, KOFFING
@@ -299,7 +299,7 @@ JohtoGrassWildMons:
 	db 14, SLUGMA
 	db 15, HOUNDOUR
 	db 15, RATICATE
-	db 15, RATICATE
+	db 15, CYNDAQUIL
 	; nite
 	db 13, SLUGMA
 	db 14, KOFFING
@@ -459,7 +459,7 @@ JohtoGrassWildMons:
 	db 8, ONIX
 	db 8, MARILL
 	db 8, MARILL
-	db 9, MARILL
+	db 9, TOTODILE
 	; day
 	db 8, GEODUDE
 	db 8, ZUBAT
@@ -467,7 +467,7 @@ JohtoGrassWildMons:
 	db 8, ONIX
 	db 8, MARILL
 	db 9, MARILL
-	db 9, MARILL
+	db 9, TOTODILE
 	; nite
 	db 8, GEODUDE
 	db 8, ZUBAT
@@ -571,7 +571,7 @@ JohtoGrassWildMons:
 	db 12, ODDISH
 	db 13, PARAS
 	db 9,  METAPOD
-	db 9,  METAPOD
+	db 9,  CHIKORITA
 	; day
 	db 8,  CATERPIE
 	db 8,  WEEDLE
@@ -579,7 +579,7 @@ JohtoGrassWildMons:
 	db 12, ODDISH
 	db 13, PARAS
 	db 9,  KAKUNA
-	db 9,  KAKUNA
+	db 9,  CHIKORITA
 	; nite
 	db 12, ODDISH
 	db 12, VENONAT
