@@ -567,18 +567,18 @@ JohtoGrassWildMons:
 	; morn
 	db 8,  CATERPIE
 	db 8,  WEEDLE
-	db 12, PARAS
-	db 12, ODDISH
-	db 13, PARAS
 	db 9,  METAPOD
+	db 12, ODDISH 
+	db 13, PARAS
+	db 9,  CHIKORITA
 	db 9,  CHIKORITA
 	; day
 	db 8,  CATERPIE
 	db 8,  WEEDLE
-	db 12, PARAS
+	db 9,  KAKUNA
 	db 12, ODDISH
 	db 13, PARAS
-	db 9,  KAKUNA
+	db 9,  CHIKORITA
 	db 9,  CHIKORITA
 	; nite
 	db 12, ODDISH

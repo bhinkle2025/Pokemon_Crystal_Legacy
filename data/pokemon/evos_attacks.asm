@@ -1836,12 +1836,12 @@ ScytherEvosAttacks:
     db 1, LEER
     db 6, FOCUS_ENERGY
     db 12, PURSUIT
-    db 16, CUT
+    db 16, FURY_CUTTER
     db 18, FALSE_SWIPE
     db 24, AGILITY
     db 30, WING_ATTACK
     db 36, SLASH
-    db 42, TWINEEDLE
+    db 42, CUT
     db 48, DOUBLE_TEAM
     db 54, SWORDS_DANCE
     db 0 ; no more level-up moves
@@ -1899,12 +1899,12 @@ PinsirEvosAttacks:
     db 7, FOCUS_ENERGY
     db 13, BIND
     db 19, SEISMIC_TOSS
-    db 25, TWINEEDLE
+    db 25, CUT
     db 27, HARDEN
-    db 31, GUILLOTINE
+    db 31, ROCK_SMASH
     db 37, SUBMISSION
     db 43, SWORDS_DANCE
-    db 48, MEGAHORN
+    db 48, GUILLOTINE
     db 0 ; no more level-up moves
 
 TaurosEvosAttacks:
@@ -2891,10 +2891,10 @@ YanmaEvosAttacks:
 	db 7, QUICK_ATTACK
 	db 13, DOUBLE_TEAM
 	db 19, WING_ATTACK
-	db 25, TWINEEDLE
+	db 25, HYPNOSIS
 	db 30, TWISTER
-	db 28, DETECT
-	db 31, SUPERSONIC
+	db 33, ANCIENTPOWER
+	db 35, SLASH
 	db 37, SONICBOOM
 	db 43, SCREECH
 	db 0 ; no more level-up moves
@@ -3172,7 +3172,7 @@ ScizorEvosAttacks:
     db 24, DOUBLE_TEAM
     db 30, METAL_CLAW
     db 36, SLASH
-    db 42, TWINEEDLE
+    db 42, LIGHT_SCREEN
     db 48, SWORDS_DANCE
     db 54, AGILITY
     db 0 ; no more level-up moves
@@ -3196,10 +3196,10 @@ ShuckleEvosAttacks:
 
 HeracrossEvosAttacks:
     db 0 ; no more evolutions
-    db 1, TACKLE
+    db 1, HORN_ATTACK
     db 1, LEER
     db 5, PIN_MISSILE
-    db 9, HORN_ATTACK
+    db 9, ROCK_SMASH
     db 12, ENDURE
     db 18, FURY_ATTACK
 	db 25, COUNTER
@@ -3262,11 +3262,11 @@ SlugmaEvosAttacks:
 	db 8, EMBER
 	db 13, ROCK_THROW
 	db 18, HARDEN
-	db 25, FLAME_WHEEL
-	db 29, AMNESIA
-	db 36, FLAMETHROWER
-	db 41, ROCK_SLIDE
-	db 46, BODY_SLAM
+	db 22, ANCIENTPOWER
+	db 29, ROCK_SLIDE
+	db 31, FLAMETHROWER
+	db 36, AMNESIA
+	db 43, BODY_SLAM
 	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -3276,13 +3276,13 @@ MagcargoEvosAttacks:
 	db 1, EMBER
 	db 1, ROCK_THROW
 	db 1, HARDEN
-	db 25, FLAME_WHEEL
-	db 29, AMNESIA
-	db 36, FLAMETHROWER
-	db 41, ROCK_SLIDE
-	db 46, BODY_SLAM
-	db 50, EARTHQUAKE
-	db 56, FIRE_BLAST
+	db 22, ANCIENTPOWER
+	db 29, ROCK_SLIDE
+	db 31, FLAMETHROWER
+	db 36, AMNESIA
+	db 43, BODY_SLAM
+	db 47, RECOVER
+	db 54, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 SwinubEvosAttacks:
